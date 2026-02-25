@@ -6,7 +6,7 @@ import { sendNotificationToAll } from "@/app/push-actions";
 
 export function TimerComponent() {
   const pushNotifications = usePushNotifications();
-  const [isRunning, setIsRunning] = useState(false);
+  const [isRunning, setIsRunning] = useState(false); 
 
   const handleStartTimer = async () => {
     setIsRunning(true);
